@@ -3,9 +3,9 @@
     <h1><%=title%></h1>
     <a href="/profile">Profile</a>
 
-    <%- include('summary', {account: accounts.checking}) %><br>
-    <%- include('summary', {account: accounts.savings}) %><br>
-    <%- include('summary', {account: accounts.credit}) %><br>
+    <%- include('summary', {account: accounts.checking}) %>
+    <%- include('summary', {account: accounts.savings}) %>
+    <%- include('summary', {account: accounts.credit}) %>
 </div>
 <br><a href="/transfer">Transfer</a>
 <%- include('footer.ejs'); %>
